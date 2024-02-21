@@ -24,6 +24,7 @@ const App = () => {
   };
 
   const handleReset=()=> {
+    console.log("first")
     setIsBillAmount('');
     setIsParcentage(0);
     setIsDiscountAmount('');
