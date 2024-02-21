@@ -23,7 +23,7 @@ const App = () => {
     parseFloat(setIsFinalPay(isBillAmount - mainDiscount).toFixed(2));
   };
 
-  const handleReset =()=> {
+  const handleReset=()=> {
     setIsBillAmount('');
     setIsParcentage(0);
     setIsDiscountAmount('');
